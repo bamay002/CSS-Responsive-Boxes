@@ -1,3 +1,43 @@
-body {
-  background: blanchedalmond;
+body{
+  margin: 0;
+  text-align: center;
+}
+.a {
+  background-color: pink;
+  line-height: 10;
+
+}
+
+.b {
+  background: lavender;
+  line-height: 22.5;
+}
+
+.c {
+  background: lemonchiffon;
+ line-height: 10;
+}
+
+@media (min-width: 600px){
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.a{
+  width: 100%;
+  line-height: 15;
+}
+
+.b{
+  flex: 4;
+  line-height: 27.5;
+}
+
+.c{
+  flex: 1;
+  line-height: 27.5;
+}
 }

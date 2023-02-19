@@ -1,3 +1,84 @@
-body {
-  background: papayawhip;
+body{
+  margin: 0;
+  text-align: center;
+}
+
+.a{
+  background-color: pink;
+  line-height: 9;
+}
+
+.b{
+  background-color: lightcyan;
+  line-height: 15.55;
+}
+
+.c{
+  background-color: lightgoldenrodyellow;
+  width: 33%;
+  line-height: 9;
+}
+
+.d{
+  background-color: lightgreen;
+  width: 34%;
+  line-height: 9;
+}
+
+.e{
+  background-color: lightseagreen;
+  width: 33%;
+  line-height: 9;
+}
+
+.f{
+  background-color: rgb(226, 195, 227);
+  line-height: 9;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 600px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+  }
+
+  .container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+ 
+  .container-f {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    align-self: flex-end;
+  }
+  .a{
+    width: 100%;
+    line-height: 20;
+  }
+
+  .b{
+    width: 75%;
+    line-height: 12;
+  }
+
+  .f{
+    position: relative;
+    bottom: 384px;
+    line-height: 24;
+  }
+
+.c , .d , .e{
+  line-height: 12;
+  width: 25%;
+}
 }
